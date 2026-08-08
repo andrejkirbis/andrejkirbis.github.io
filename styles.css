@@ -947,22 +947,35 @@ code {
     overflow-y: auto;
   }
 
-  .nav-links.open { display: flex; }
+  .nav-links.open {
+    display: flex;
+    /* Force white on all descendant text so even :visited and browser defaults
+       cannot bleed through — the container colour cascades before any a-level
+       rule fires, and the explicit a rules below pin it with !important */
+    color: #ffffff;
+  }
 
   .nav-links a,
+  .nav-links a:link,
   .nav-links a:visited,
-  .nav-links a:link {
+  .nav-links a:hover,
+  .nav-links a:focus,
+  .nav-links a:active,
+  .nav-links a.active {
+    color: #ffffff !important;
+  }
+
+  .nav-links a {
     font-size: 1rem;
     padding: 0.875rem 1rem;
-    color: #ffffff !important;
     border-radius: var(--radius);
+    text-decoration: none;
   }
 
   .nav-links a:hover,
   .nav-links a:focus,
   .nav-links a:active,
   .nav-links a.active {
-    color: #ffffff !important;
     background: rgba(255,255,255,0.09);
   }
 
