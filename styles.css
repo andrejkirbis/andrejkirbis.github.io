@@ -949,16 +949,20 @@ code {
 
   .nav-links.open { display: flex; }
 
-  .nav-links a {
+  .nav-links a,
+  .nav-links a:visited,
+  .nav-links a:link {
     font-size: 1rem;
     padding: 0.875rem 1rem;
-    color: rgba(255,255,255,0.82);
+    color: #ffffff !important;
     border-radius: var(--radius);
   }
 
   .nav-links a:hover,
+  .nav-links a:focus,
+  .nav-links a:active,
   .nav-links a.active {
-    color: var(--white);
+    color: #ffffff !important;
     background: rgba(255,255,255,0.09);
   }
 
