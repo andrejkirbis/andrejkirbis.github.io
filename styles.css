@@ -963,6 +963,7 @@ code {
   .nav-links a:active,
   .nav-links a.active {
     color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
   }
 
   .nav-links a {

@@ -21,16 +21,26 @@
   const nav      = document.querySelector('.site-nav');
   if (!toggle || !navLinks) return;
 
+  var navAnchors = navLinks.querySelectorAll('a');
+
   function openNav() {
     navLinks.classList.add('open');
     toggle.setAttribute('aria-expanded', 'true');
     document.body.style.overflow = 'hidden';
+    navAnchors.forEach(function (a) {
+      a.style.setProperty('color', '#ffffff', 'important');
+      a.style.setProperty('-webkit-text-fill-color', '#ffffff', 'important');
+    });
   }
 
   function closeNav() {
     navLinks.classList.remove('open');
     toggle.setAttribute('aria-expanded', 'false');
     document.body.style.overflow = '';
+    navAnchors.forEach(function (a) {
+      a.style.removeProperty('color');
+      a.style.removeProperty('-webkit-text-fill-color');
+    });
   }
 
   toggle.addEventListener('click', e => {
