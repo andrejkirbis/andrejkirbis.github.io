@@ -12,93 +12,95 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://andrejkirbis.com/about.html" />
   <link rel="canonical" href="https://andrejkirbis.com/about.html" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231c3557'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-family='serif' font-weight='700'>AK</text></svg>" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%231A3A6B'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='14' font-family='sans-serif' font-weight='700'>AK</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" />
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <nav class="site-nav" aria-label="Main navigation">
-    <div class="nav-inner">
-      <a class="nav-brand" href="index.html" aria-label="Andrej Kirbiš — home">
-        <span class="nav-brand-name">Andrej Kirbiš</span>
-        <span class="nav-brand-subtitle">Full Professor · University of Maribor</span>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-brand" aria-label="Andrej Kirbiš — home">
+        <span class="brand-mark" aria-hidden="true">AK</span>
+        <span class="brand-name">Andrej Kirbiš</span>
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
-        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true">
-          <rect y="0" width="18" height="2" rx="1" fill="currentColor"/>
-          <rect y="6" width="18" height="2" rx="1" fill="currentColor"/>
-          <rect y="12" width="18" height="2" rx="1" fill="currentColor"/>
-        </svg>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul role="list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links" id="nav-links" role="list">
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <nav aria-label="Mobile navigation">
+      <ul role="list">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="research.html">Research</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
-  <header class="page-hero">
+  <header class="page-head">
     <div class="container">
-      <nav aria-label="Breadcrumb">
-        <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
-          <li aria-hidden="true">›</li>
-          <li aria-current="page">About</li>
-        </ol>
-      </nav>
+      <span class="page-head-label">Academic Profile</span>
       <h1>About</h1>
-      <p class="page-hero-desc">
-        Academic biography, positions, research interests, and teaching.
+      <p class="page-head-desc">
+        Biography, academic positions, research interests, teaching, and professional profile.
       </p>
     </div>
   </header>
 
   <main id="main-content">
-
     <section class="section" aria-labelledby="bio-heading">
       <div class="container">
-        <div class="bio-grid">
+        <div class="about-layout">
 
           <div>
-            <span class="section-label">Biography</span>
-            <h2 id="bio-heading" class="section-title">Academic Profile</h2>
 
-            <p class="bio-lead">
+            <span class="section-label">Biography</span>
+            <h2 class="section-title" id="bio-heading" style="font-size:1.375rem;margin-bottom:1.5rem;">Academic Profile</h2>
+
+            <p class="body-lead">
               I am Full Professor of Sociology at the Department of Sociology,
               Faculty of Arts, University of Maribor, Slovenia.
             </p>
 
-            <p>
+            <p class="body-text">
               My research focuses on political participation and polarization, health sociology,
               vaccine hesitancy and health literacy, youth and social inequalities, environmental
               attitudes and behaviour, cultural participation, volunteering, and comparative social research.
             </p>
 
-            <p>
+            <p class="body-text">
               My research is predominantly quantitative and includes cross-national comparative studies
               and longitudinal panel research. I use methods including multilevel modelling, structural
               equation modelling, cross-lagged panel analysis, mediation and moderation analysis, latent
               profile analysis, and other quantitative approaches suited to the research questions I investigate.
             </p>
 
-            <p>
+            <p class="body-text">
               I received my PhD in Sociology from the University of Maribor in 2011. I have led and
               participated in research projects funded by the Slovenian Research and Innovation Agency
               (ARIS), ministries of the Republic of Slovenia, and international research programmes.
-              My recent projects address political participation and polarization, vaccine hesitancy and
-              health literacy, climate literacy and environmental behaviour, volunteering, health and
-              political participation, and other areas of social research.
             </p>
 
-            <p>
+            <p class="body-text">
               My recent research has appeared in journals including <em>Social Science &amp; Medicine</em>,
               <em>Political Studies</em>, <em>European Journal of Public Health</em>,
               <em>International Journal of Sociology</em>, <em>Journal of Youth Studies</em>,
@@ -108,34 +110,45 @@
 
             <hr />
 
-            <h3 id="positions-heading" style="margin-bottom:1.5rem;">Academic Positions</h3>
+            <span class="section-label">Career</span>
+            <h3 style="font-family:var(--font-head);font-size:1.0625rem;font-weight:600;letter-spacing:-0.01em;color:var(--text);margin-bottom:1.5rem;" id="positions-heading">Academic Positions</h3>
+
             <ul class="timeline" aria-label="Academic positions">
               <li class="timeline-item">
                 <div class="timeline-year">2025 – present</div>
-                <div class="timeline-title">Full Professor of Sociology</div>
-                <div class="timeline-subtitle">Department of Sociology, Faculty of Arts, University of Maribor</div>
+                <div class="timeline-content">
+                  <div class="timeline-title">Full Professor of Sociology</div>
+                  <div class="timeline-subtitle">Department of Sociology, Faculty of Arts, University of Maribor</div>
+                </div>
               </li>
               <li class="timeline-item">
                 <div class="timeline-year">2017 – 2025</div>
-                <div class="timeline-title">Associate Professor of Sociology</div>
-                <div class="timeline-subtitle">Department of Sociology, Faculty of Arts, University of Maribor</div>
+                <div class="timeline-content">
+                  <div class="timeline-title">Associate Professor of Sociology</div>
+                  <div class="timeline-subtitle">Department of Sociology, Faculty of Arts, University of Maribor</div>
+                </div>
               </li>
               <li class="timeline-item">
                 <div class="timeline-year">2012 – 2017</div>
-                <div class="timeline-title">Assistant Professor of Sociology</div>
-                <div class="timeline-subtitle">Department of Sociology, Faculty of Arts, University of Maribor</div>
+                <div class="timeline-content">
+                  <div class="timeline-title">Assistant Professor of Sociology</div>
+                  <div class="timeline-subtitle">Department of Sociology, Faculty of Arts, University of Maribor</div>
+                </div>
               </li>
               <li class="timeline-item">
                 <div class="timeline-year">2011</div>
-                <div class="timeline-title">PhD in Sociology</div>
-                <div class="timeline-subtitle">University of Maribor</div>
+                <div class="timeline-content">
+                  <div class="timeline-title">PhD in Sociology</div>
+                  <div class="timeline-subtitle">University of Maribor</div>
+                </div>
               </li>
             </ul>
 
             <hr />
 
-            <h3 id="teaching-heading" style="margin-bottom:1rem;">Teaching</h3>
-            <p>
+            <span class="section-label">Teaching</span>
+            <h3 style="font-family:var(--font-head);font-size:1.0625rem;font-weight:600;letter-spacing:-0.01em;color:var(--text);margin-bottom:1rem;" id="teaching-heading">Courses</h3>
+            <p class="body-text" style="margin-bottom:1.75rem;">
               At the University of Maribor, I teach courses including Sociology of Health and Illness,
               Slovenian Society, Writing Scientific Texts, Introduction to Scientific Research, Political
               Sociology, Politics and Social Change, Youth and Politics, Sociology of Pandemics, and
@@ -144,8 +157,9 @@
 
             <hr />
 
-            <h3 id="interests-heading" style="margin-bottom:1rem;">Research Interests</h3>
-            <div class="tags" style="margin-bottom:1.75rem;">
+            <span class="section-label">Expertise</span>
+            <h3 style="font-family:var(--font-head);font-size:1.0625rem;font-weight:600;letter-spacing:-0.01em;color:var(--text);margin-bottom:1rem;" id="interests-heading">Research Interests</h3>
+            <div class="tag-cluster" style="margin-bottom:1.75rem;">
               <span class="tag tag--accent">Political Participation</span>
               <span class="tag tag--accent">Political Polarization</span>
               <span class="tag tag--accent">Health Sociology</span>
@@ -159,8 +173,8 @@
               <span class="tag tag--accent">Quantitative Methodology</span>
             </div>
 
-            <h3 id="methods-heading" style="margin-bottom:1rem;">Methodological Expertise</h3>
-            <div class="tags">
+            <h3 style="font-family:var(--font-head);font-size:1.0625rem;font-weight:600;letter-spacing:-0.01em;color:var(--text);margin-bottom:1rem;" id="methods-heading">Methodological Expertise</h3>
+            <div class="tag-cluster">
               <span class="tag">Multilevel Modelling</span>
               <span class="tag">Structural Equation Modelling</span>
               <span class="tag">Cross-Lagged Panel Analysis</span>
@@ -169,91 +183,133 @@
               <span class="tag">Longitudinal Panel Design</span>
               <span class="tag">Cross-National Comparison</span>
               <span class="tag">Secondary Data Analysis</span>
+              <span class="tag">Psychometric Validation</span>
+              <span class="tag">Discrete Choice Experiments</span>
+              <span class="tag">Systematic Review</span>
             </div>
+
           </div>
 
-          <aside aria-label="Quick facts and links">
+          <aside class="about-sidebar" aria-label="Quick facts and links">
 
-            <div class="sidebar-block">
-              <div class="sidebar-block-title">Quick Facts</div>
-              <ul style="list-style:none;padding:0;font-family:var(--font-sans);font-size:0.875rem;line-height:1.6;color:var(--text-muted);">
-                <li style="margin-bottom:0.75rem;">
-                  <span style="font-weight:600;color:var(--navy);display:block;">Position</span>
-                  Full Professor
-                </li>
-                <li style="margin-bottom:0.75rem;">
-                  <span style="font-weight:600;color:var(--navy);display:block;">Since</span>
-                  2025
-                </li>
-                <li style="margin-bottom:0.75rem;">
-                  <span style="font-weight:600;color:var(--navy);display:block;">PhD</span>
-                  2011, University of Maribor
-                </li>
-                <li style="margin-bottom:0.75rem;">
-                  <span style="font-weight:600;color:var(--navy);display:block;">Department</span>
-                  Sociology
-                </li>
-                <li style="margin-bottom:0.75rem;">
-                  <span style="font-weight:600;color:var(--navy);display:block;">Faculty</span>
-                  Faculty of Arts
-                </li>
-                <li style="margin-bottom:0.75rem;">
-                  <span style="font-weight:600;color:var(--navy);display:block;">University</span>
-                  University of Maribor
+            <div class="info-block">
+              <div class="info-block-title">Quick Facts</div>
+              <div class="info-block-row">
+                <span class="info-block-key">Position</span>
+                <span class="info-block-val">Full Professor</span>
+              </div>
+              <div class="info-block-row">
+                <span class="info-block-key">Since</span>
+                <span class="info-block-val">2025</span>
+              </div>
+              <div class="info-block-row">
+                <span class="info-block-key">PhD</span>
+                <span class="info-block-val">2011, University of Maribor</span>
+              </div>
+              <div class="info-block-row">
+                <span class="info-block-key">Department</span>
+                <span class="info-block-val">Sociology</span>
+              </div>
+              <div class="info-block-row">
+                <span class="info-block-key">Faculty</span>
+                <span class="info-block-val">Faculty of Arts</span>
+              </div>
+              <div class="info-block-row">
+                <span class="info-block-key">University</span>
+                <span class="info-block-val">University of Maribor</span>
+              </div>
+              <div class="info-block-row">
+                <span class="info-block-key">Country</span>
+                <span class="info-block-val">Slovenia</span>
+              </div>
+            </div>
+
+            <div class="info-block">
+              <div class="info-block-title">Academic Profiles</div>
+              <ul class="profile-links-list">
+                <li>
+                  <a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#a6ce39;color:#fff;">OR</span>
+                    ORCID
+                  </a>
                 </li>
                 <li>
-                  <span style="font-weight:600;color:var(--navy);display:block;">Country</span>
-                  Slovenia
+                  <a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#4285f4;color:#fff;">GS</span>
+                    Google Scholar
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#e67e22;color:#fff;">Sc</span>
+                    Scopus
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#c0392b;color:#fff;">WS</span>
+                    Web of Science
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#00ccbb;color:#fff;">RG</span>
+                    ResearchGate
+                  </a>
+                </li>
+                <li>
+                  <a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#003f7f;color:#fff;">SI</span>
+                    SICRIS
+                  </a>
+                </li>
+                <li>
+                  <a href="https://sciprofiles.com/profile/AndrejKirbis" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#555;color:#fff;">SP</span>
+                    SciProfiles
+                  </a>
+                </li>
+                <li>
+                  <a href="https://ff.um.si/oseba/andrej-kirbis/" target="_blank" rel="noopener">
+                    <span class="profile-link-icon-sm" style="background:#1A3A6B;color:#fff;">UM</span>
+                    University of Maribor
+                  </a>
                 </li>
               </ul>
             </div>
 
-            <div class="sidebar-block">
-              <div class="sidebar-block-title">Academic Profiles</div>
-              <ul style="list-style:none;padding:0;display:flex;flex-direction:column;gap:0.625rem;">
-                <li><a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">ORCID</a></li>
-                <li><a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">Google Scholar</a></li>
-                <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">Scopus</a></li>
-                <li><a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">Web of Science</a></li>
-                <li><a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">ResearchGate</a></li>
-                <li><a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">SICRIS</a></li>
-                <li><a href="https://sciprofiles.com/profile/AndrejKirbis" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">SciProfiles</a></li>
-                <li><a href="https://ff.um.si/oseba/andrej-kirbis/" target="_blank" rel="noopener" style="font-family:var(--font-sans);font-size:0.875rem;">University of Maribor</a></li>
-              </ul>
-            </div>
-
-            <div class="sidebar-block">
-              <div class="sidebar-block-title">Curriculum Vitae</div>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">
+            <div class="info-block">
+              <div class="info-block-title">Curriculum Vitae</div>
+              <p style="font-size:0.875rem;color:var(--text-muted);line-height:1.6;">
                 CV available on request. Please use the <a href="contact.html">contact page</a>.
               </p>
             </div>
 
           </aside>
+
         </div>
       </div>
     </section>
-
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-top">
+      <div class="footer-grid">
         <div>
-          <div class="footer-name">Prof. Andrej Kirbiš, PhD</div>
-          <div class="footer-affiliation">
+          <div class="footer-brand-name">Prof. Andrej Kirbiš, PhD</div>
+          <div class="footer-brand-affil">
             Department of Sociology, Faculty of Arts<br>
             University of Maribor, Slovenia
           </div>
         </div>
-        <ul class="footer-links" role="list">
-          <li><a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener">ORCID</a></li>
-          <li><a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
-          <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener">Scopus</a></li>
-          <li><a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener">Web of Science</a></li>
-          <li><a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener">ResearchGate</a></li>
-          <li><a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener">SICRIS</a></li>
-        </ul>
+        <div class="footer-links-row">
+          <a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener">Scopus</a>
+          <a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener">Web of Science</a>
+          <a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener">ResearchGate</a>
+          <a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener">SICRIS</a>
+        </div>
       </div>
       <div class="footer-bottom">
         <span>&copy; <span id="footer-year"></span> Andrej Kirbiš. All rights reserved.</span>
@@ -262,7 +318,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=4"></script>
-  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
 </body>
 </html>

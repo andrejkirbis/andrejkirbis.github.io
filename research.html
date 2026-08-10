@@ -12,50 +12,55 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://andrejkirbis.com/research.html" />
   <link rel="canonical" href="https://andrejkirbis.com/research.html" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231c3557'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-family='serif' font-weight='700'>AK</text></svg>" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%231A3A6B'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='14' font-family='sans-serif' font-weight='700'>AK</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" />
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <nav class="site-nav" aria-label="Main navigation">
-    <div class="nav-inner">
-      <a class="nav-brand" href="index.html" aria-label="Andrej Kirbiš — home">
-        <span class="nav-brand-name">Andrej Kirbiš</span>
-        <span class="nav-brand-subtitle">Full Professor · University of Maribor</span>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-brand" aria-label="Andrej Kirbiš — home">
+        <span class="brand-mark" aria-hidden="true">AK</span>
+        <span class="brand-name">Andrej Kirbiš</span>
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
-        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true">
-          <rect y="0" width="18" height="2" rx="1" fill="currentColor"/>
-          <rect y="6" width="18" height="2" rx="1" fill="currentColor"/>
-          <rect y="12" width="18" height="2" rx="1" fill="currentColor"/>
-        </svg>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul role="list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links" id="nav-links" role="list">
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <nav aria-label="Mobile navigation">
+      <ul role="list">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="research.html">Research</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
-  <header class="page-hero">
+  <header class="page-head">
     <div class="container">
-      <nav aria-label="Breadcrumb">
-        <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
-          <li aria-hidden="true">›</li>
-          <li aria-current="page">Research</li>
-        </ol>
-      </nav>
+      <span class="page-head-label">Research Programme</span>
       <h1>Research</h1>
-      <p class="page-hero-desc">
+      <p class="page-head-desc">
         My research examines how social position, political context, values, knowledge, trust, and
         institutional environments shape political, health, civic, and environmental attitudes and
         behaviour. I primarily use quantitative survey research, including cross-national comparisons
@@ -69,219 +74,197 @@
       <div class="container">
         <h2 class="sr-only" id="research-areas-heading">Research Areas</h2>
 
-        <div class="research-area" id="participation">
-          <div class="research-area-header">
-            <div class="research-num" aria-hidden="true">1</div>
-            <div>
-              <h2 class="research-area-title">Political Participation &amp; Polarization</h2>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">Political participation, ideological and affective polarization, political trust, and democratic engagement</p>
+        <div class="research-grid">
+
+          <div class="research-item" id="participation">
+            <div class="research-item-num">01</div>
+            <h2 class="research-item-title">Political Participation &amp; Polarization</h2>
+            <p class="research-item-sub">Political participation, ideological and affective polarization, political trust, and democratic engagement</p>
+            <p class="research-item-body">
+              My research examines how different forms of political participation are associated with
+              polarization, political information, trust, health, and individual and contextual resources.
+              My recent work investigates the relationship between affective polarization and political
+              participation, the role of ideological polarization in the relationship between political
+              news consumption and participation across 24 countries, and longitudinal relationships
+              between perceived ideological polarization, institutional trust, and vaccination attitudes.
+            </p>
+            <div class="tag-cluster">
+              <span class="tag">Political Participation</span>
+              <span class="tag">Affective Polarization</span>
+              <span class="tag">Ideological Polarization</span>
+              <span class="tag">Political Trust</span>
+              <span class="tag">Political News</span>
+              <span class="tag">Democratic Engagement</span>
             </div>
           </div>
-          <p class="research-area-body">
-            My research examines how different forms of political participation are associated with
-            polarization, political information, trust, health, and individual and contextual resources.
-            My recent work investigates the relationship between affective polarization and political
-            participation, the role of ideological polarization in the relationship between political
-            news consumption and participation across 24 countries, and longitudinal relationships
-            between perceived ideological polarization, institutional trust, and vaccination attitudes.
-          </p>
-          <div class="tags">
-            <span class="tag">Political Participation</span>
-            <span class="tag">Affective Polarization</span>
-            <span class="tag">Ideological Polarization</span>
-            <span class="tag">Political Trust</span>
-            <span class="tag">Political News</span>
-            <span class="tag">Democratic Engagement</span>
-          </div>
-        </div>
 
-        <div class="research-area" id="health-vaccine">
-          <div class="research-area-header">
-            <div class="research-num" aria-hidden="true">2</div>
-            <div>
-              <h2 class="research-area-title">Health Sociology, Vaccine Hesitancy &amp; Health Literacy</h2>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">Social inequalities, trust, health literacy, vaccination attitudes, and health behaviour</p>
+          <div class="research-item" id="health-vaccine">
+            <div class="research-item-num">02</div>
+            <h2 class="research-item-title">Health Sociology, Vaccine Hesitancy &amp; Health Literacy</h2>
+            <p class="research-item-sub">Social inequalities, trust, health literacy, vaccination attitudes, and health behaviour</p>
+            <p class="research-item-body">
+              A major strand of my research investigates vaccine hesitancy, vaccination intentions, health
+              literacy, trust in healthcare and science, health inequalities, and health-related behaviour.
+              I examine individual and contextual determinants including socioeconomic position, education,
+              cultural capital, conspiracy mentality, ideological polarization, institutional trust, and
+              national economic and cultural characteristics.
+            </p>
+            <p class="research-item-body">
+              My recent work also examines the measurement of health literacy and vaccination readiness,
+              differences between groups with different patterns of vaccine hesitancy, and longitudinal
+              changes in vaccination attitudes.
+            </p>
+            <div class="tag-cluster">
+              <span class="tag">Vaccine Hesitancy</span>
+              <span class="tag">Health Literacy</span>
+              <span class="tag">Health Inequalities</span>
+              <span class="tag">Institutional Trust</span>
+              <span class="tag">Vaccination Attitudes</span>
+              <span class="tag">Health Behaviour</span>
             </div>
           </div>
-          <p class="research-area-body">
-            A major strand of my research investigates vaccine hesitancy, vaccination intentions, health
-            literacy, trust in healthcare and science, health inequalities, and health-related behaviour.
-            I examine individual and contextual determinants including socioeconomic position, education,
-            cultural capital, conspiracy mentality, ideological polarization, institutional trust, and
-            national economic and cultural characteristics.
-          </p>
-          <p class="research-area-body">
-            My recent work also examines the measurement of health literacy and vaccination readiness,
-            differences between groups with different patterns of vaccine hesitancy, and longitudinal
-            changes in vaccination attitudes.
-          </p>
-          <div class="tags">
-            <span class="tag">Vaccine Hesitancy</span>
-            <span class="tag">Health Literacy</span>
-            <span class="tag">Health Inequalities</span>
-            <span class="tag">Institutional Trust</span>
-            <span class="tag">Vaccination Attitudes</span>
-            <span class="tag">Health Behaviour</span>
-          </div>
-        </div>
 
-        <div class="research-area" id="health-inequalities">
-          <div class="research-area-header">
-            <div class="research-num" aria-hidden="true">3</div>
-            <div>
-              <h2 class="research-area-title">Health, Social Inequalities &amp; Lifestyles</h2>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">Health status, diet, substance use, mental health, and socioeconomic inequalities</p>
+          <div class="research-item" id="health-inequalities">
+            <div class="research-item-num">03</div>
+            <h2 class="research-item-title">Health, Social Inequalities &amp; Lifestyles</h2>
+            <p class="research-item-sub">Health status, diet, substance use, mental health, and socioeconomic inequalities</p>
+            <p class="research-item-body">
+              I examine how education, socioeconomic position, gender, health literacy, and other social
+              resources are associated with health and health-related behaviour. My work in this area
+              includes research on fruit and vegetable intake, meat consumption and reduction, sustainable
+              dietary behaviour, adolescent substance use, mental health, and relationships between physical
+              health and political participation.
+            </p>
+            <div class="tag-cluster">
+              <span class="tag">Health Inequalities</span>
+              <span class="tag">Dietary Behaviour</span>
+              <span class="tag">Substance Use</span>
+              <span class="tag">Mental Health</span>
+              <span class="tag">Education</span>
+              <span class="tag">Socioeconomic Position</span>
             </div>
           </div>
-          <p class="research-area-body">
-            I examine how education, socioeconomic position, gender, health literacy, and other social
-            resources are associated with health and health-related behaviour. My work in this area
-            includes research on fruit and vegetable intake, meat consumption and reduction, sustainable
-            dietary behaviour, adolescent substance use, mental health, and relationships between physical
-            health and political participation.
-          </p>
-          <div class="tags">
-            <span class="tag">Health Inequalities</span>
-            <span class="tag">Dietary Behaviour</span>
-            <span class="tag">Substance Use</span>
-            <span class="tag">Mental Health</span>
-            <span class="tag">Education</span>
-            <span class="tag">Socioeconomic Position</span>
-          </div>
-        </div>
 
-        <div class="research-area" id="youth">
-          <div class="research-area-header">
-            <div class="research-num" aria-hidden="true">4</div>
-            <div>
-              <h2 class="research-area-title">Youth Studies</h2>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">Political attitudes, participation, health, values, and inequalities among young people</p>
+          <div class="research-item" id="youth">
+            <div class="research-item-num">04</div>
+            <h2 class="research-item-title">Youth Studies</h2>
+            <p class="research-item-sub">Political attitudes, participation, health, values, and inequalities among young people</p>
+            <p class="research-item-body">
+              Young people are a recurring population in my research. I study political orientation and
+              participation among youth, health and substance use, environmental attitudes, cultural
+              participation, educational inequalities, values, and cross-national differences among young
+              people in Slovenia and other European societies.
+            </p>
+            <p class="research-item-body">
+              My youth research draws on both national and comparative datasets and examines how
+              socioeconomic resources, family background, education, gender, and wider social contexts
+              are related to attitudes and behaviour.
+            </p>
+            <div class="tag-cluster">
+              <span class="tag">Youth Participation</span>
+              <span class="tag">Political Orientation</span>
+              <span class="tag">Health</span>
+              <span class="tag">Social Inequalities</span>
+              <span class="tag">Cultural Participation</span>
+              <span class="tag">Environmental Attitudes</span>
             </div>
           </div>
-          <p class="research-area-body">
-            Young people are a recurring population in my research. I study political orientation and
-            participation among youth, health and substance use, environmental attitudes, cultural
-            participation, educational inequalities, values, and cross-national differences among young
-            people in Slovenia and other European societies.
-          </p>
-          <p class="research-area-body">
-            My youth research draws on both national and comparative datasets and examines how
-            socioeconomic resources, family background, education, gender, and wider social contexts
-            are related to attitudes and behaviour.
-          </p>
-          <div class="tags">
-            <span class="tag">Youth Participation</span>
-            <span class="tag">Political Orientation</span>
-            <span class="tag">Health</span>
-            <span class="tag">Social Inequalities</span>
-            <span class="tag">Cultural Participation</span>
-            <span class="tag">Environmental Attitudes</span>
-          </div>
-        </div>
 
-        <div class="research-area" id="environment">
-          <div class="research-area-header">
-            <div class="research-num" aria-hidden="true">5</div>
-            <div>
-              <h2 class="research-area-title">Environmental Attitudes, Climate Literacy &amp; Behaviour</h2>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">Climate knowledge, environmental engagement, dietary behaviour, and inequalities</p>
+          <div class="research-item" id="environment">
+            <div class="research-item-num">05</div>
+            <h2 class="research-item-title">Environmental Attitudes, Climate Literacy &amp; Behaviour</h2>
+            <p class="research-item-sub">Climate knowledge, environmental engagement, dietary behaviour, and inequalities</p>
+            <p class="research-item-body">
+              My environmental research examines climate literacy, environmental attitudes, environmentally
+              friendly behaviour, and environmental civic engagement. My recent work investigates the
+              measurement of climate knowledge, the relationship between education and active environmental
+              engagement, climate literacy as a mechanism linking education with meat consumption and
+              reduction, and cross-national environmental public sphere behaviour.
+            </p>
+            <div class="tag-cluster">
+              <span class="tag">Climate Literacy</span>
+              <span class="tag">Environmental Attitudes</span>
+              <span class="tag">Pro-environmental Behaviour</span>
+              <span class="tag">Sustainable Diets</span>
+              <span class="tag">Environmental Participation</span>
             </div>
           </div>
-          <p class="research-area-body">
-            My environmental research examines climate literacy, environmental attitudes, environmentally
-            friendly behaviour, and environmental civic engagement. My recent work investigates the
-            measurement of climate knowledge, the relationship between education and active environmental
-            engagement, climate literacy as a mechanism linking education with meat consumption and
-            reduction, and cross-national environmental public sphere behaviour.
-          </p>
-          <div class="tags">
-            <span class="tag">Climate Literacy</span>
-            <span class="tag">Environmental Attitudes</span>
-            <span class="tag">Pro-environmental Behaviour</span>
-            <span class="tag">Sustainable Diets</span>
-            <span class="tag">Environmental Participation</span>
-          </div>
-        </div>
 
-        <div class="research-area" id="volunteering-culture">
-          <div class="research-area-header">
-            <div class="research-num" aria-hidden="true">6</div>
-            <div>
-              <h2 class="research-area-title">Cultural Participation, Volunteering &amp; Civil Society</h2>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">Cultural engagement, volunteering, participation inequalities, and civic life</p>
+          <div class="research-item" id="volunteering-culture">
+            <div class="research-item-num">06</div>
+            <h2 class="research-item-title">Cultural Participation, Volunteering &amp; Civil Society</h2>
+            <p class="research-item-sub">Cultural engagement, volunteering, participation inequalities, and civic life</p>
+            <p class="research-item-body">
+              I study cultural participation and volunteering as important dimensions of civic and social
+              engagement. My work examines participation patterns, motivations and barriers, inequalities
+              in access and engagement, and traditional and digital forms of cultural participation.
+            </p>
+            <p class="research-item-body">
+              My research project on cultural participation among young people combined national and
+              comparative European analyses. My current national project on volunteering extends this
+              research to the prevalence, determinants, barriers, and consequences of formal and informal
+              volunteering in Slovenia.
+            </p>
+            <div class="tag-cluster">
+              <span class="tag">Volunteering</span>
+              <span class="tag">Cultural Participation</span>
+              <span class="tag">Civil Society</span>
+              <span class="tag">Participation Inequalities</span>
+              <span class="tag">Civic Engagement</span>
             </div>
           </div>
-          <p class="research-area-body">
-            I study cultural participation and volunteering as important dimensions of civic and social
-            engagement. My work examines participation patterns, motivations and barriers, inequalities
-            in access and engagement, and traditional and digital forms of cultural participation.
-          </p>
-          <p class="research-area-body">
-            My research project on cultural participation among young people combined national and
-            comparative European analyses. My current national project on volunteering extends this
-            research to the prevalence, determinants, barriers, and consequences of formal and informal
-            volunteering in Slovenia.
-          </p>
-          <div class="tags">
-            <span class="tag">Volunteering</span>
-            <span class="tag">Cultural Participation</span>
-            <span class="tag">Civil Society</span>
-            <span class="tag">Participation Inequalities</span>
-            <span class="tag">Civic Engagement</span>
-          </div>
-        </div>
 
-        <div class="research-area" id="methods">
-          <div class="research-area-header">
-            <div class="research-num" aria-hidden="true">7</div>
-            <div>
-              <h2 class="research-area-title">Comparative &amp; Longitudinal Quantitative Research</h2>
-              <p style="font-family:var(--font-sans);font-size:0.875rem;color:var(--text-muted);">Cross-national survey analysis, panel data, multilevel modelling, and structural equation modelling</p>
+          <div class="research-item" id="methods" style="grid-column:1/-1;border-right:none;">
+            <div class="research-item-num">07</div>
+            <h2 class="research-item-title">Comparative &amp; Longitudinal Quantitative Research</h2>
+            <p class="research-item-sub">Cross-national survey analysis, panel data, multilevel modelling, and structural equation modelling</p>
+            <p class="research-item-body">
+              Much of my research uses comparative and quantitative designs. I analyse national and
+              international survey data to examine individual and contextual differences and increasingly
+              use longitudinal panel data to investigate change over time and relationships between
+              variables across multiple waves.
+            </p>
+            <p class="research-item-body">
+              Methods used in my recent research include multilevel modelling, structural equation
+              modelling, cross-lagged panel analysis, moderated mediation, latent profile analysis,
+              psychometric validation, discrete choice experiments, and systematic review methodology.
+            </p>
+            <div class="tag-cluster">
+              <span class="tag">Cross-National Research</span>
+              <span class="tag">Panel Studies</span>
+              <span class="tag">Multilevel Models</span>
+              <span class="tag">Structural Equation Modelling</span>
+              <span class="tag">Mediation &amp; Moderation</span>
+              <span class="tag">Latent Profile Analysis</span>
+              <span class="tag">Psychometric Validation</span>
+              <span class="tag">Discrete Choice Experiments</span>
+              <span class="tag">Systematic Review</span>
             </div>
           </div>
-          <p class="research-area-body">
-            Much of my research uses comparative and quantitative designs. I analyse national and
-            international survey data to examine individual and contextual differences and increasingly
-            use longitudinal panel data to investigate change over time and relationships between
-            variables across multiple waves.
-          </p>
-          <p class="research-area-body">
-            Methods used in my recent research include multilevel modelling, structural equation
-            modelling, cross-lagged panel analysis, moderated mediation, latent profile analysis,
-            psychometric validation, discrete choice experiments, and systematic review methodology.
-          </p>
-          <div class="tags">
-            <span class="tag">Cross-National Research</span>
-            <span class="tag">Panel Studies</span>
-            <span class="tag">Multilevel Models</span>
-            <span class="tag">Structural Equation Modelling</span>
-            <span class="tag">Mediation &amp; Moderation</span>
-            <span class="tag">Latent Profile Analysis</span>
-          </div>
-        </div>
 
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-top">
+      <div class="footer-grid">
         <div>
-          <div class="footer-name">Prof. Andrej Kirbiš, PhD</div>
-          <div class="footer-affiliation">
+          <div class="footer-brand-name">Prof. Andrej Kirbiš, PhD</div>
+          <div class="footer-brand-affil">
             Department of Sociology, Faculty of Arts<br>
             University of Maribor, Slovenia
           </div>
         </div>
-        <ul class="footer-links" role="list">
-          <li><a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener">ORCID</a></li>
-          <li><a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
-          <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener">Scopus</a></li>
-          <li><a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener">Web of Science</a></li>
-          <li><a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener">ResearchGate</a></li>
-          <li><a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener">SICRIS</a></li>
-        </ul>
+        <div class="footer-links-row">
+          <a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener">Scopus</a>
+          <a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener">Web of Science</a>
+          <a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener">ResearchGate</a>
+          <a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener">SICRIS</a>
+        </div>
       </div>
       <div class="footer-bottom">
         <span>&copy; <span id="footer-year"></span> Andrej Kirbiš. All rights reserved.</span>
@@ -290,7 +273,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=4"></script>
-  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
 </body>
 </html>

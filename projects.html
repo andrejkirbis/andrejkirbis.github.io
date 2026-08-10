@@ -12,292 +12,465 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://andrejkirbis.com/projects.html" />
   <link rel="canonical" href="https://andrejkirbis.com/projects.html" />
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='6' fill='%231c3557'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='16' font-family='serif' font-weight='700'>AK</text></svg>" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='4' fill='%231A3A6B'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' fill='white' font-size='14' font-family='sans-serif' font-weight='700'>AK</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,300;1,8..60,400&display=swap" />
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <nav class="site-nav" aria-label="Main navigation">
-    <div class="nav-inner">
-      <a class="nav-brand" href="index.html" aria-label="Andrej Kirbiš — home">
-        <span class="nav-brand-name">Andrej Kirbiš</span>
-        <span class="nav-brand-subtitle">Full Professor · University of Maribor</span>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="header-brand" aria-label="Andrej Kirbiš — home">
+        <span class="brand-mark" aria-hidden="true">AK</span>
+        <span class="brand-name">Andrej Kirbiš</span>
       </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
-        <svg width="18" height="14" viewBox="0 0 18 14" fill="none" aria-hidden="true">
-          <rect y="0" width="18" height="2" rx="1" fill="currentColor"/>
-          <rect y="6" width="18" height="2" rx="1" fill="currentColor"/>
-          <rect y="12" width="18" height="2" rx="1" fill="currentColor"/>
-        </svg>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul role="list">
+          <li><a href="about.html">About</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
       </button>
-      <ul class="nav-links" id="nav-links" role="list">
+    </div>
+  </header>
+
+  <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+    <nav aria-label="Mobile navigation">
+      <ul role="list">
+        <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="research.html">Research</a></li>
         <li><a href="publications.html">Publications</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
-  <header class="page-hero">
+  <header class="page-head">
     <div class="container">
-      <nav aria-label="Breadcrumb">
-        <ol class="breadcrumb">
-          <li><a href="index.html">Home</a></li>
-          <li aria-hidden="true">›</li>
-          <li aria-current="page">Projects</li>
-        </ol>
-      </nav>
+      <span class="page-head-label">Funded Research</span>
       <h1>Projects</h1>
-      <p class="page-hero-desc">
+      <p class="page-head-desc">
         I have led and participated in national, bilateral, and international research projects in
         political sociology, health sociology, youth studies, environmental behaviour, volunteering,
-        cultural participation, and comparative social research. My recent projects use longitudinal
-        panel surveys, cross-national comparative data, and quantitative and qualitative research designs.
+        cultural participation, and comparative social research.
       </p>
     </div>
   </header>
 
   <main id="main-content">
+
+    <!-- CURRENT PROJECTS -->
     <section class="section" aria-labelledby="current-heading">
       <div class="container">
+        <div class="section-header">
+          <span class="section-label">Active</span>
+          <h2 class="section-title" id="current-heading">Current Projects</h2>
+        </div>
 
-        <span class="status-label">Active</span>
-        <h2 class="status-title" id="current-heading">Current Projects</h2>
+        <div class="projects-table">
 
-        <div class="projects-grid">
-
-          <article class="project-card">
-            <h3 class="project-title">Beyond One-Size-Fits-All: A Person-Oriented, Longitudinal, and Cross-National Approach to Vaccine Hesitancy</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>J5-70183</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 March 2026 – 28 February 2029</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Research Team Member</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">PI</span><span>Monika Lamot</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funder</span><span>ARIS</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€450,009.90</span></div>
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Beyond One-Size-Fits-All: A Person-Oriented, Longitudinal, and Cross-National Approach to Vaccine Hesitancy</h3>
+              <p class="project-entry-desc">
+                I participate in this project investigating heterogeneity and change in vaccine hesitancy
+                through person-oriented, longitudinal, and cross-national approaches. Principal Investigator: Monika Lamot.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag tag--accent">Current</span>
+                <span class="tag">Vaccine Hesitancy</span>
+                <span class="tag">Health Sociology</span>
+                <span class="tag">Longitudinal</span>
+              </div>
             </div>
-            <p class="project-body">
-              I participate in this project investigating heterogeneity and change in vaccine hesitancy
-              through person-oriented, longitudinal, and cross-national approaches.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Vaccine Hesitancy</span>
-              <span class="tag">Health Sociology</span>
-              <span class="tag">Longitudinal</span>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">J5-70183</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Mar 2026 – 28 Feb 2029</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Research Team Member</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">PI</span>
+                <span class="project-meta-val">Monika Lamot</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funder</span>
+                <span class="project-meta-val">ARIS</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€450,009.90</span>
+              </div>
             </div>
           </article>
 
-          <article class="project-card">
-            <h3 class="project-title">Nationwide Slovenian Study on the Impact of Volunteering on Society: Determinants, Barriers, Consequences, and Policy Recommendations</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>V5-2519</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 September 2025 – 31 August 2027</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funders</span><span>ARIS &amp; Ministry of Public Administration</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€100,000</span></div>
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Nationwide Slovenian Study on the Impact of Volunteering on Society: Determinants, Barriers, Consequences, and Policy Recommendations</h3>
+              <p class="project-entry-desc">
+                I lead this national project examining the prevalence, determinants, barriers, and societal
+                consequences of volunteering in Slovenia. The project combines a multi-wave national panel
+                study, comparative international analyses, and qualitative research and aims to develop
+                evidence-based recommendations for policy and practice.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag tag--accent">Current</span>
+                <span class="tag">Volunteering</span>
+                <span class="tag">Civil Society</span>
+                <span class="tag">Slovenia</span>
+              </div>
             </div>
-            <p class="project-body">
-              I lead this national project examining the prevalence, determinants, barriers, and societal
-              consequences of volunteering in Slovenia. The project combines a multi-wave national panel
-              study, comparative international analyses, and qualitative research and aims to develop
-              evidence-based recommendations for policy and practice.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Volunteering</span>
-              <span class="tag">Civil Society</span>
-              <span class="tag">Slovenia</span>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">V5-2519</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Sep 2025 – 31 Aug 2027</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Principal Investigator</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funders</span>
+                <span class="project-meta-val">ARIS &amp; Ministry of Public Administration</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€100,000</span>
+              </div>
             </div>
           </article>
 
-          <article class="project-card">
-            <h3 class="project-title">Health and Political Participation: A Panel Study of Slovenian Youth and Adults</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>BI-FIN/25-27-009</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 January 2025 – 31 December 2026</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funder</span><span>ARIS</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Partner</span><span>Faculty of Social Sciences, University of Helsinki</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€5,000</span></div>
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Health and Political Participation: A Panel Study of Slovenian Youth and Adults</h3>
+              <p class="project-entry-desc">
+                I lead this bilateral project examining relationships between health and political
+                participation using longitudinal Slovenian panel data, with particular attention to age,
+                health inequalities, and political engagement.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag tag--accent">Current</span>
+                <span class="tag">Political Participation</span>
+                <span class="tag">Health</span>
+                <span class="tag">Bilateral</span>
+              </div>
             </div>
-            <p class="project-body">
-              I lead this bilateral project examining relationships between health and political
-              participation using longitudinal Slovenian panel data, with particular attention to age,
-              health inequalities, and political engagement.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Political Participation</span>
-              <span class="tag">Health</span>
-              <span class="tag">Bilateral</span>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">BI-FIN/25-27-009</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Jan 2025 – 31 Dec 2026</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Principal Investigator</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funder</span>
+                <span class="project-meta-val">ARIS</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Partner</span>
+                <span class="project-meta-val">Faculty of Social Sciences, Univ. of Helsinki</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€5,000</span>
+              </div>
             </div>
           </article>
 
         </div>
-
       </div>
     </section>
 
-    <section class="section section--alt" aria-labelledby="completed-heading">
+    <!-- COMPLETED PROJECTS -->
+    <section class="section section--alt section--border-top" aria-labelledby="completed-heading">
       <div class="container">
+        <div class="section-header">
+          <span class="section-label">Completed</span>
+          <h2 class="section-title" id="completed-heading">Recently Completed Projects</h2>
+        </div>
 
-        <span class="status-label">Completed</span>
-        <h2 class="status-title" id="completed-heading">Recently Completed Projects</h2>
+        <div class="projects-table">
 
-        <div class="projects-grid">
-
-          <article class="project-card">
-            <h3 class="project-title">Determinants of Alcohol Use: Analysis of Slovenian and U.S. Youth</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>BI-US/24-26-030</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 July 2024 – 30 June 2026</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funder</span><span>ARIS</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€3,000</span></div>
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Determinants of Alcohol Use: Analysis of Slovenian and U.S. Youth</h3>
+              <p class="project-entry-desc">
+                I led this bilateral Slovenian-U.S. project examining determinants of alcohol use among young people.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag">Youth Studies</span>
+                <span class="tag">Health</span>
+                <span class="tag">Bilateral</span>
+              </div>
             </div>
-            <p class="project-body">
-              I led this bilateral Slovenian-U.S. project examining determinants of alcohol use among
-              young people.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Youth Studies</span>
-              <span class="tag">Health</span>
-              <span class="tag">Bilateral</span>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">BI-US/24-26-030</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Jul 2024 – 30 Jun 2026</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Principal Investigator</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funder</span>
+                <span class="project-meta-val">ARIS</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€3,000</span>
+              </div>
             </div>
           </article>
 
-          <article class="project-card">
-            <h3 class="project-title">Political Participation in the Age of Polarization: Austria, Poland, and Slovenia in Comparative Perspective</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>N5-0293</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 July 2023 – 30 June 2026</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator at the University of Maribor</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Programme</span><span>Weave / ARIS</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Total value</span><span>€894,040</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">UM share</span><span>€286,798</span></div>
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Political Participation in the Age of Polarization: Austria, Poland, and Slovenia in Comparative Perspective</h3>
+              <p class="project-entry-desc">
+                I led the Slovenian part of this comparative project examining political participation
+                and polarization in Austria, Poland, and Slovenia. The project investigated relationships
+                between political participation, affective and ideological polarization, political trust,
+                and other political attitudes and behaviours.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag">Political Participation</span>
+                <span class="tag">Polarization</span>
+                <span class="tag">Comparative</span>
+              </div>
             </div>
-            <p class="project-body">
-              I led the Slovenian part of this comparative project examining political participation
-              and polarization in Austria, Poland, and Slovenia. The project investigated relationships
-              between political participation, affective and ideological polarization, political trust,
-              and other political attitudes and behaviours.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Political Participation</span>
-              <span class="tag">Polarization</span>
-              <span class="tag">Comparative</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <h3 class="project-title">Climate Literacy and Environmentally Friendly Behaviour among Young People in Slovenia and Europe</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>V5-2374</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 October 2023 – 31 March 2026</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funders</span><span>ARIS &amp; Ministry of the Environment, Climate and Energy</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€250,000</span></div>
-            </div>
-            <p class="project-body">
-              I led this project examining climate literacy, environmental attitudes, and environmentally
-              friendly behaviour among young people in Slovenia and Europe, including their determinants,
-              consequences, and implications for policy.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Climate Literacy</span>
-              <span class="tag">Environmental Behaviour</span>
-              <span class="tag">Youth</span>
-            </div>
-          </article>
-
-          <article class="project-card">
-            <h3 class="project-title">COVID-19 Aftermath in Slovenia: Vaccine Hesitancy, Democratic Engagement and Trust in Public Health Institutions</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>J5-4579</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 October 2022 – 31 December 2025</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funder</span><span>ARIS</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€299,952.90</span></div>
-            </div>
-            <p class="project-body">
-              I led this project examining vaccine hesitancy, democratic and political participation,
-              institutional trust, and related post-pandemic social and health processes in Slovenia.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Vaccine Hesitancy</span>
-              <span class="tag">Political Participation</span>
-              <span class="tag">Institutional Trust</span>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">N5-0293</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Jul 2023 – 30 Jun 2026</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">PI at Univ. of Maribor</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Programme</span>
+                <span class="project-meta-val">Weave / ARIS</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Total</span>
+                <span class="project-meta-val">€894,040</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">UM share</span>
+                <span class="project-meta-val">€286,798</span>
+              </div>
             </div>
           </article>
 
-          <article class="project-card">
-            <h3 class="project-title">Comparative Analysis of Health Literacy and Other Determinants of Trust in Vaccination in Slovenia and Europe</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>V5-2242</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 October 2022 – 30 September 2024</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funders</span><span>ARIS &amp; Ministry of Health</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€40,000</span></div>
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Climate Literacy and Environmentally Friendly Behaviour among Young People in Slovenia and Europe</h3>
+              <p class="project-entry-desc">
+                I led this project examining climate literacy, environmental attitudes, and environmentally
+                friendly behaviour among young people in Slovenia and Europe, including their determinants,
+                consequences, and implications for policy.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag">Climate Literacy</span>
+                <span class="tag">Environmental Behaviour</span>
+                <span class="tag">Youth</span>
+              </div>
             </div>
-            <p class="project-body">
-              I led this project examining health literacy and other determinants of vaccination attitudes
-              in Slovenia and Europe and developing evidence-based recommendations.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Health Literacy</span>
-              <span class="tag">Vaccine Hesitancy</span>
-              <span class="tag">Comparative</span>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">V5-2374</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Oct 2023 – 31 Mar 2026</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Principal Investigator</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funders</span>
+                <span class="project-meta-val">ARIS &amp; Ministry of the Environment, Climate and Energy</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€250,000</span>
+              </div>
             </div>
           </article>
 
-          <article class="project-card">
-            <h3 class="project-title">Cultural Participation of Young People in Slovenia and Europe: Analysis of the Situation, Trends, Determinants, Consequences, and Proposed Solutions</h3>
-            <div class="project-meta">
-              <div class="project-meta-row"><span class="project-meta-label">Code</span><span>V5-1726</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Period</span><span>1 April 2018 – 31 July 2020</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Role</span><span>Principal Investigator</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Funder</span><span>ARRS</span></div>
-              <div class="project-meta-row"><span class="project-meta-label">Value</span><span>€22,000</span></div>
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">COVID-19 Aftermath in Slovenia: Vaccine Hesitancy, Democratic Engagement and Trust in Public Health Institutions</h3>
+              <p class="project-entry-desc">
+                I led this project examining vaccine hesitancy, democratic and political participation,
+                institutional trust, and related post-pandemic social and health processes in Slovenia.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag">Vaccine Hesitancy</span>
+                <span class="tag">Political Participation</span>
+                <span class="tag">Institutional Trust</span>
+              </div>
             </div>
-            <p class="project-body">
-              I led this project examining patterns, trends, determinants, and consequences of cultural
-              participation among young people in Slovenia and Europe.
-            </p>
-            <div class="project-footer">
-              <span class="tag">Cultural Participation</span>
-              <span class="tag">Youth</span>
-              <span class="tag">Comparative</span>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">J5-4579</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Oct 2022 – 31 Dec 2025</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Principal Investigator</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funder</span>
+                <span class="project-meta-val">ARIS</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€299,952.90</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Comparative Analysis of Health Literacy and Other Determinants of Trust in Vaccination in Slovenia and Europe</h3>
+              <p class="project-entry-desc">
+                I led this project examining health literacy and other determinants of vaccination attitudes
+                in Slovenia and Europe and developing evidence-based recommendations.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag">Health Literacy</span>
+                <span class="tag">Vaccine Hesitancy</span>
+                <span class="tag">Comparative</span>
+              </div>
+            </div>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">V5-2242</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Oct 2022 – 30 Sep 2024</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Principal Investigator</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funders</span>
+                <span class="project-meta-val">ARIS &amp; Ministry of Health</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€40,000</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-entry">
+            <div>
+              <h3 class="project-entry-title">Cultural Participation of Young People in Slovenia and Europe: Analysis of the Situation, Trends, Determinants, Consequences, and Proposed Solutions</h3>
+              <p class="project-entry-desc">
+                I led this project examining patterns, trends, determinants, and consequences of cultural
+                participation among young people in Slovenia and Europe.
+              </p>
+              <div class="tag-cluster" style="margin-top:0.875rem;">
+                <span class="tag">Cultural Participation</span>
+                <span class="tag">Youth</span>
+                <span class="tag">Comparative</span>
+              </div>
+            </div>
+            <div class="project-entry-meta">
+              <div class="project-meta-line">
+                <span class="project-meta-key">Code</span>
+                <span class="project-meta-val">V5-1726</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Period</span>
+                <span class="project-meta-val">1 Apr 2018 – 31 Jul 2020</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Role</span>
+                <span class="project-meta-val">Principal Investigator</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Funder</span>
+                <span class="project-meta-val">ARRS</span>
+              </div>
+              <div class="project-meta-line">
+                <span class="project-meta-key">Value</span>
+                <span class="project-meta-val">€22,000</span>
+              </div>
             </div>
           </article>
 
         </div>
       </div>
     </section>
+
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-top">
+      <div class="footer-grid">
         <div>
-          <div class="footer-name">Prof. Andrej Kirbiš, PhD</div>
-          <div class="footer-affiliation">
+          <div class="footer-brand-name">Prof. Andrej Kirbiš, PhD</div>
+          <div class="footer-brand-affil">
             Department of Sociology, Faculty of Arts<br>
             University of Maribor, Slovenia
           </div>
         </div>
-        <ul class="footer-links" role="list">
-          <li><a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener">ORCID</a></li>
-          <li><a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a></li>
-          <li><a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener">Scopus</a></li>
-          <li><a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener">Web of Science</a></li>
-          <li><a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener">ResearchGate</a></li>
-          <li><a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener">SICRIS</a></li>
-        </ul>
+        <div class="footer-links-row">
+          <a href="https://orcid.org/0000-0002-4837-5368" target="_blank" rel="noopener">ORCID</a>
+          <a href="https://scholar.google.com/citations?user=Z2KNlc0AAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+          <a href="https://www.scopus.com/authid/detail.uri?authorId=57214054058" target="_blank" rel="noopener">Scopus</a>
+          <a href="https://www.webofscience.com/wos/author/record/GON-5398-2022" target="_blank" rel="noopener">Web of Science</a>
+          <a href="https://www.researchgate.net/profile/Andrej-Kirbis" target="_blank" rel="noopener">ResearchGate</a>
+          <a href="https://cris.cobiss.net/ecris/si/sl/researcher/33628" target="_blank" rel="noopener">SICRIS</a>
+        </div>
       </div>
       <div class="footer-bottom">
         <span>&copy; <span id="footer-year"></span> Andrej Kirbiš. All rights reserved.</span>
@@ -306,7 +479,6 @@
     </div>
   </footer>
 
-  <script src="script.js?v=4"></script>
-  <script>document.getElementById('footer-year').textContent = new Date().getFullYear();</script>
+  <script src="script.js"></script>
 </body>
 </html>
