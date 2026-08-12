@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,400;1,600&family=Work+Sans:wght@400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" />
   <link rel="stylesheet" href="styles.css?v=1" />
+  <script src="consent.js"></script>
 </head>
 <body>
 
@@ -107,9 +108,10 @@
 
           <h2 style="font-size:1.25rem;margin-top:2rem;margin-bottom:0.75rem;">What data is collected?</h2>
           <p>
-            This website does <strong>not</strong> use cookies, tracking scripts, advertising networks,
-            or analytics tools placed by the site owner.
-            No personal data is collected, stored, or processed by this website.
+            This website does <strong>not</strong> use analytics by default.
+            If you accept analytics cookies when prompted, Google Analytics 4 is loaded and collects
+            aggregated statistical data as described below.
+            If you reject or ignore the prompt, no analytics data is collected or sent.
           </p>
           <p>
             GitHub Pages (operated by GitHub, Inc.) may collect basic server log data
@@ -119,12 +121,46 @@
             for details.
           </p>
 
+          <h2 style="font-size:1.25rem;margin-top:2rem;margin-bottom:0.75rem;">Google Analytics 4 (optional, consent-based)</h2>
+          <p>
+            If you accept analytics cookies, this website loads Google Analytics 4 (Measurement ID:
+            <strong>G-GXLELRGY99</strong>). GA4 may then collect:
+          </p>
+          <ul style="font-family:var(--font-ui);font-size:0.9375rem;margin:0.75rem 0 1rem 1.5rem;line-height:1.65;">
+            <li>Page views and navigation paths on this website</li>
+            <li>Approximate country or region (not precise location)</li>
+            <li>Device type, browser, and operating system</li>
+            <li>The referrer or source that brought you to this website</li>
+          </ul>
+          <p>
+            This data is processed by Google in accordance with
+            <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.
+            It is used solely to understand how visitors use this website and to improve its content.
+            It is <strong>not</strong> used for advertising or remarketing.
+            All advertising-related consent signals are permanently denied regardless of your analytics choice.
+          </p>
+
           <h2 style="font-size:1.25rem;margin-top:2rem;margin-bottom:0.75rem;">Third-party links</h2>
           <p>
             This website links to external services including ORCID, Google Scholar, Scopus,
             Web of Science, ResearchGate, SICRIS, SciProfiles, and the University of Maribor.
-            These are governed by their respective privacy policies. This website has no control
+            If analytics cookies are accepted, data is also sent to Google (Google Analytics 4).
+            These services are governed by their respective privacy policies. This website has no control
             over and assumes no responsibility for the content or privacy practices of those sites.
+          </p>
+
+          <h2 style="font-size:1.25rem;margin-top:2rem;margin-bottom:0.75rem;">Cookie settings and consent</h2>
+          <p>
+            When you first visit this website, a banner asks whether you agree to analytics cookies.
+            Your choice is stored in your browser's local storage under the key
+            <code>ak_analytics_consent</code>.
+            You can change or withdraw your consent at any time by clicking
+            <a href="#" onclick="openCookieSettings(); return false;"><strong>Cookie settings</strong></a>
+            in the footer of any page.
+          </p>
+          <p>
+            Withdrawing consent means Google Analytics will not be loaded on future visits.
+            It does not affect data already collected by Google during previous sessions when consent was granted.
           </p>
 
           <h2 style="font-size:1.25rem;margin-top:2rem;margin-bottom:0.75rem;">Google Fonts</h2>
@@ -145,9 +181,14 @@
 
           <h2 style="font-size:1.25rem;margin-top:2rem;margin-bottom:0.75rem;">Your rights (GDPR)</h2>
           <p>
-            As this website collects no personal data directly, there is no data to access,
-            rectify, or erase. For data held by GitHub as the hosting provider,
-            please contact GitHub directly.
+            If you accepted analytics cookies, Google Analytics may hold aggregated data about your visits.
+            You can opt out of Google Analytics via the
+            <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Browser Add-on</a>,
+            or withdraw consent at any time via the
+            <a href="#" onclick="openCookieSettings(); return false;">Cookie settings</a> link in the footer.
+          </p>
+          <p>
+            For data held by GitHub as the hosting provider, please contact GitHub directly.
             For any other enquiries about privacy, contact:
             <a href="mailto:andrej.kirbis@um.si">andrej.kirbis@um.si</a>.
           </p>
@@ -188,6 +229,7 @@
         <div class="footer-bottom">
           <span>&copy; <span id="footer-year"></span> Andrej Kirbiš. All rights reserved.</span>
           <a href="privacy.html">Privacy Policy</a>
+          <a href="#" onclick="openCookieSettings(); return false;">Cookie settings</a>
         </div>
       </div>
     </footer>
