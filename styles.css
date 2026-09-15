@@ -1156,6 +1156,29 @@ hr {
   text-decoration: none;
 }
 
+.pub-finding {
+  margin: 0.5rem 0 0.5rem;
+  padding-left: 0.75rem;
+  border-left: 2px solid var(--cobalt-600);
+  font-size: 0.8125rem;
+  line-height: 1.6;
+  color: var(--text-mid);
+}
+.pub-finding strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.hero-photo {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1.75rem;
+}
+
+.theme-item.is-linked { cursor: pointer; }
+
 /* =============================================================
    PROJECTS PAGE
    ============================================================= */

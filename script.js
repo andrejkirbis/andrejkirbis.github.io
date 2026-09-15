@@ -107,3 +107,14 @@ if (fy) fy.textContent = new Date().getFullYear();
     obs.observe(el);
   });
 })();
+
+// Make topic cards that contain a link fully clickable (hand cursor + click anywhere)
+document.querySelectorAll('.theme-item').forEach(function (c) {
+  var a = c.querySelector('a[href]');
+  if (!a) return;
+  c.classList.add('is-linked');
+  c.addEventListener('click', function (e) {
+    if (e.target.closest('a')) return;
+    location.href = a.href;
+  });
+});
