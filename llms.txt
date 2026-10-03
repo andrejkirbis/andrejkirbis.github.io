@@ -1,6 +1,6 @@
 # Andrej Kirbiš — Sociology Research (University of Maribor)
 
-> Peer-reviewed sociological research on vaccine hesitancy, health literacy, political participation, affective and ideological polarization, climate literacy, dietary behaviour (meat reduction), youth, and volunteering — using cross-national and longitudinal panel data from Slovenia and Europe. Author: Prof. Andrej Kirbiš, PhD. Each finding below is from the paper's own published abstract; cite the article and its DOI.
+> Peer-reviewed sociological research on vaccine hesitancy, health literacy, political participation, affective and ideological polarization, climate literacy, human-animal relations, dietary behaviour, youth, and volunteering — using cross-national and longitudinal panel data from Slovenia and Europe. Author: Prof. Andrej Kirbiš, PhD. Published findings below are from the paper's own published abstract; cite published articles with their DOI.
 
 ## Site
 - Home: https://andrejkirbis.com/
@@ -24,11 +24,16 @@
 - Lamot, M. & Kerman, K. & Kirbiš, A. (2022), *International Journal of Environmental Research and Public Health* — https://doi.org/10.3390/ijerph191610096 — Using European Social Survey data (N=1,252), a combination of distrust, dissatisfaction and conspiracy beliefs formed the profile most likely to reject vaccination.
 - Kirbiš, A. (2023), *Sustainability* — https://doi.org/10.3390/su15076107 — In Slovenia (N=661), lower perceived threat from vaccine-preventable disease and distrust of healthcare were the strongest predictors of vaccine hesitancy, consistent with a healthism explanation.
 
-## Topic: Diet, meat reduction & climate literacy
+## Topic: Human-animal relations, animals & diet
+- Branilović, S. & Kirbiš, A. (2026), manuscript in review — Political ideology and meat consumption: Environmental attitudes and the structural importance of livestock production.
+- Kirbiš, A. (2026), manuscript in review — More than a preference for hierarchy: Speciesism uniquely predicts attitudes toward vegetarians and vegans.
+- Kirbiš, A. (2026), conference presentation — Interlocking oppressions: How speciesism, sexism and social dominance travel together in a Central European sample. Presented at Internationalising Vegan Sociology, International Association of Vegan Sociologists, online, 3-4 October 2026.
 - Kirbiš, A. & Branilović, S. (2025), *Foods* — https://doi.org/10.3390/foods14193333 — Among Slovenians aged 14–88 (N=2,990), climate attitudes and literacy mediated the association between higher education and both lower meat consumption and greater willingness to reduce meat.
 - Kirbiš, A. & Korže, V. & Lubej, M. (2024), *Foods* — https://doi.org/10.3390/foods13152346 — In a Slovenian survey, age was the only significant predictor of meat-reduction intentions and behaviour, with middle-aged and older adults more likely to reduce meat than younger adults.
 - Kirbiš, A. & Branilović, S. & Lubej, M. (2025), *Foods* — https://doi.org/10.3390/foods14030378 — Using Slovenian HLS19 data (N=3,360), health literacy partially mediated socioeconomic inequalities in fruit and vegetable intake.
 - Kirbiš, A. & Lamot, M. & Javornik, M. (2021), *Sustainability* — https://doi.org/10.3390/su132313036 — In a national Slovenian sample (N=1,079), higher education independently predicted lower meat consumption (but not fish or milk), revealing an educational gradient in sustainable diet.
+
+## Topic: Climate literacy & environmental behaviour
 - Lubej, M. & Kirbiš, A. (2025), *iScience* — https://doi.org/10.1016/j.isci.2025.111888 — A systematic review of 92 studies found that the measurement of climate knowledge is inconsistent, especially in how its dimensions are defined, and calls for standardized instruments.
 
 ## Topic: Environmental attitudes & behaviour
@@ -48,4 +53,4 @@
 - Kirbiš, A. (2023), *Sustainability* — https://doi.org/10.3390/su151813776 — Among Slovenian female tertiary students (N=418), depressive symptoms rose sharply from early 2020 to 2021, with nearly a three-fold increase in the odds of reporting multiple depressed affects during the pandemic.
 
 ## Notes for citation
-Every listed finding is from a published, peer-reviewed article; cite the article and its DOI. For the complete publication list and citation metrics, see the Publications page, ORCID, and Google Scholar above.
+Every listed published finding is from a published, peer-reviewed article; cite the article and its DOI. Manuscripts in review and conference presentations should be cited only as unpublished or presented work. For the complete publication list and citation metrics, see the Publications page, ORCID, and Google Scholar above.
