@@ -1,81 +1,291 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://andrejkirbis.com/</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://andrejkirbis.com/about.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/about.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/about.html" />
   </url>
-
   <url>
-    <loc>https://andrejkirbis.com/research.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://andrejkirbis.com/sl/about.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/about.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/about.html" />
   </url>
-
   <url>
-    <loc>https://andrejkirbis.com/publications.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://andrejkirbis.com/de/about.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/about.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/about.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/about.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/about.html" />
   </url>
-
-  <url>
-    <loc>https://andrejkirbis.com/projects.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
   <url>
     <loc>https://andrejkirbis.com/contact.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>yearly</changefreq>
-    <priority>0.6</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/contact.html" />
   </url>
-
   <url>
-    <loc>https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://andrejkirbis.com/sl/contact.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/contact.html" />
   </url>
-
   <url>
-    <loc>https://andrejkirbis.com/topic-political-participation-polarization.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://andrejkirbis.com/de/contact.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/contact.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/contact.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/contact.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/contact.html" />
   </url>
-
+  <url>
+    <loc>https://andrejkirbis.com/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/sl/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/privacy.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/sl/privacy.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/privacy.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/privacy.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/privacy.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/projects.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/projects.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/projects.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/projects.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/projects.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/sl/projects.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/projects.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/projects.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/projects.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/projects.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/projects.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/projects.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/projects.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/projects.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/projects.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/publications.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/publications.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/publications.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/publications.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/publications.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/sl/publications.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/publications.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/publications.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/publications.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/publications.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/publications.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/publications.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/publications.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/publications.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/publications.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/research.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/research.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/research.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/research.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/research.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/sl/research.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/research.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/research.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/research.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/research.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/research.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/research.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/research.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/research.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/research.html" />
+  </url>
   <url>
     <loc>https://andrejkirbis.com/topic-climate-literacy-environmental-behaviour.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-climate-literacy-environmental-behaviour.html" />
   </url>
-
+  <url>
+    <loc>https://andrejkirbis.com/sl/topic-climate-literacy-environmental-behaviour.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-climate-literacy-environmental-behaviour.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/topic-climate-literacy-environmental-behaviour.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-climate-literacy-environmental-behaviour.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-climate-literacy-environmental-behaviour.html" />
+  </url>
   <url>
     <loc>https://andrejkirbis.com/topic-human-animal-relations-animals-diet.html</loc>
-    <lastmod>2026-10-03</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-human-animal-relations-animals-diet.html" />
   </url>
-
+  <url>
+    <loc>https://andrejkirbis.com/sl/topic-human-animal-relations-animals-diet.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-human-animal-relations-animals-diet.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/topic-human-animal-relations-animals-diet.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-human-animal-relations-animals-diet.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-human-animal-relations-animals-diet.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/topic-political-participation-polarization.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-political-participation-polarization.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/sl/topic-political-participation-polarization.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-political-participation-polarization.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/topic-political-participation-polarization.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-political-participation-polarization.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-political-participation-polarization.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/sl/topic-vaccine-hesitancy-health-literacy-trust-science.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/topic-vaccine-hesitancy-health-literacy-trust-science.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-vaccine-hesitancy-health-literacy-trust-science.html" />
+  </url>
   <url>
     <loc>https://andrejkirbis.com/topic-volunteering-cultural-participation-civil-society.html</loc>
-    <lastmod>2026-09-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-volunteering-cultural-participation-civil-society.html" />
   </url>
-
+  <url>
+    <loc>https://andrejkirbis.com/sl/topic-volunteering-cultural-participation-civil-society.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-volunteering-cultural-participation-civil-society.html" />
+  </url>
+  <url>
+    <loc>https://andrejkirbis.com/de/topic-volunteering-cultural-participation-civil-society.html</loc>
+    <lastmod>2026-11-02</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://andrejkirbis.com/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="sl" href="https://andrejkirbis.com/sl/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://andrejkirbis.com/de/topic-volunteering-cultural-participation-civil-society.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://andrejkirbis.com/topic-volunteering-cultural-participation-civil-society.html" />
+  </url>
 </urlset>

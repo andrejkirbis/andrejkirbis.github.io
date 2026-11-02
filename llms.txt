@@ -2,6 +2,20 @@
 
 > Peer-reviewed sociological research on vaccine hesitancy, health literacy, political participation, affective and ideological polarization, climate literacy, human-animal relations, dietary behaviour, youth, and volunteering — using cross-national and longitudinal panel data from Slovenia and Europe. Author: Prof. Andrej Kirbiš, PhD. Published findings below are from the paper's own published abstract; cite published articles with their DOI.
 
+## Languages and indexing
+
+- English (default): https://andrejkirbis.com/
+- Slovenščina: https://andrejkirbis.com/sl/
+- Deutsch: https://andrejkirbis.com/de/
+- English publications: https://andrejkirbis.com/publications.html
+- Slovenske publikacije: https://andrejkirbis.com/sl/publications.html
+- Deutsche Publikationsseite: https://andrejkirbis.com/de/publications.html
+- Multilingual sitemap: https://andrejkirbis.com/sitemap.xml
+- Slovenian site guide: https://andrejkirbis.com/sl/llms.txt
+- German site guide: https://andrejkirbis.com/de/llms.txt
+
+All three languages contain the same publication records. Work titles, authors, journals and DOI identifiers retain their original wording; navigation, descriptions and research summaries are localized. Each page has a self-canonical URL and reciprocal en/sl/de/x-default language alternates.
+
 ## Site
 - Home: https://andrejkirbis.com/
 - Research topics: https://andrejkirbis.com/research.html
