@@ -3,6 +3,7 @@
 .language-row{display:flex;align-items:center;justify-content:flex-end;gap:.8rem}
 .language-switcher a{color:var(--text-mid);text-decoration:none}
 .language-switcher a:hover,.language-switcher a[aria-current="true"]{color:var(--cobalt-800);text-decoration:underline;text-underline-offset:.2em}
+html[lang="zh-Hans"] .hero-name{line-height:1.16}
 @media(max-width:768px){.language-controls{margin-left:auto;margin-right:-1.25rem;gap:.5rem}.language-switcher{font-size:.625rem;gap:.2rem}.language-row{gap:.5rem}.language-controls .nav-toggle{margin-left:0}}
 @media(max-width:360px){.language-controls{margin-left:-1.5rem;margin-right:-1.5rem;gap:.375rem}.language-switcher{font-size:.5625rem}.language-row{gap:.375rem}}
 @media print{.language-controls{display:none}}
