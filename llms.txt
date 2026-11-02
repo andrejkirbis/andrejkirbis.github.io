@@ -7,6 +7,10 @@
 - English (default): https://andrejkirbis.com/
 - Slovenščina: https://andrejkirbis.com/sl/
 - Deutsch: https://andrejkirbis.com/de/
+- Español: https://andrejkirbis.com/es/
+- Italiano: https://andrejkirbis.com/it/
+- Français: https://andrejkirbis.com/fr/
+- 简体中文: https://andrejkirbis.com/zh/
 - English publications: https://andrejkirbis.com/publications.html
 - Slovenske publikacije: https://andrejkirbis.com/sl/publications.html
 - Deutsche Publikationsseite: https://andrejkirbis.com/de/publications.html
@@ -14,7 +18,7 @@
 - Slovenian site guide: https://andrejkirbis.com/sl/llms.txt
 - German site guide: https://andrejkirbis.com/de/llms.txt
 
-All three languages contain the same publication records. Work titles, authors, journals and DOI identifiers retain their original wording; navigation, descriptions and research summaries are localized. Each page has a self-canonical URL and reciprocal en/sl/de/x-default language alternates.
+All seven languages contain the same publication records. Work titles, authors, journals and DOI identifiers retain their original wording; navigation, descriptions and research summaries are localized. Each page has a self-canonical URL and reciprocal en/sl/de/es/it/fr/zh-Hans/x-default language alternates.
 
 ## Site
 - Home: https://andrejkirbis.com/
@@ -127,3 +131,13 @@ The Publications page includes journal articles, book chapters, monographs, edit
 
 ## Notes for citation
 Every listed published finding is from a published, peer-reviewed article; cite the article and its DOI. Manuscripts in review and conference presentations should be cited only as unpublished or presented work. For the complete publication list and citation metrics, see the Publications page, ORCID, and Google Scholar above.
+
+## Language
+
+- English: https://andrejkirbis.com/ — https://andrejkirbis.com/llms.txt
+- Slovenščina: https://andrejkirbis.com/sl/ — https://andrejkirbis.com/sl/llms.txt
+- Deutsch: https://andrejkirbis.com/de/ — https://andrejkirbis.com/de/llms.txt
+- Español: https://andrejkirbis.com/es/ — https://andrejkirbis.com/es/llms.txt
+- Italiano: https://andrejkirbis.com/it/ — https://andrejkirbis.com/it/llms.txt
+- Français: https://andrejkirbis.com/fr/ — https://andrejkirbis.com/fr/llms.txt
+- 简体中文: https://andrejkirbis.com/zh/ — https://andrejkirbis.com/zh/llms.txt

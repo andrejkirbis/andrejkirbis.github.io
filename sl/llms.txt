@@ -138,3 +138,13 @@ ORCID: https://orcid.org/0000-0002-4837-5368
 - 2008. Koliko smo Slovenci zadovoljni s svojim življenjem?: meddržavna primerjalna analiza. https://plus.cobiss.net/cobiss/si/sl/bib/16164616 — Zadovoljstvo z življenjem v Sloveniji v meddržavni primerjavi.
 - 2008. Virtualizacija prostega časa mladih = Virtualization of the adolescent's free time. https://plus.cobiss.net/cobiss/si/sl/bib/16076296 — Virtualizacija prostega časa mladih.
 - 2008. Sodobne razlage pojma sekularizacije. https://plus.cobiss.net/cobiss/si/sl/bib/16286472 — Sodobne razlage sekularizacije.
+
+## Jezik
+
+- English: https://andrejkirbis.com/ — https://andrejkirbis.com/llms.txt
+- Slovenščina: https://andrejkirbis.com/sl/ — https://andrejkirbis.com/sl/llms.txt
+- Deutsch: https://andrejkirbis.com/de/ — https://andrejkirbis.com/de/llms.txt
+- Español: https://andrejkirbis.com/es/ — https://andrejkirbis.com/es/llms.txt
+- Italiano: https://andrejkirbis.com/it/ — https://andrejkirbis.com/it/llms.txt
+- Français: https://andrejkirbis.com/fr/ — https://andrejkirbis.com/fr/llms.txt
+- 简体中文: https://andrejkirbis.com/zh/ — https://andrejkirbis.com/zh/llms.txt
